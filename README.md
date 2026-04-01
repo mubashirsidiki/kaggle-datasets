@@ -39,4 +39,4 @@ Each dataset folder contains the CSV, a Kaggle notebook (`.ipynb`), and `dataset
 
 ## License
 
-MIT
+Apache License 2.0
