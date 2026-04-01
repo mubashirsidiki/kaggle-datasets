@@ -1,0 +1,14 @@
+{
+  "title": "Top 50 Facebook Pages by Likes (2026)",
+  "id": "mubashirsidiki/top-50-facebook-pages-by-likes",
+  "subtitle": "Like counts and engagement for the top 50 most liked Facebook pages",
+  "description": "I was surprised by what shows up in Facebook's top 50 - it's almost entirely Netflix and Samsung regional pages rather than individual creators. Put this together while mapping out the top pages by likes as of early April 2026.\n\nColumns are rank, page name, total likes, and 'talking about' count (how many people are currently engaging with the page).\n\nThis one's interesting for analyzing how global brands split their presence across regional pages vs having one unified page. The 'talking about' column is a decent proxy for current engagement vs just accumulated likes.",
+  "licenses": [{"name": "CC0-1.0"}],
+  "keywords": ["facebook", "social media", "pages", "likes", "brands"],
+  "resources": [
+    {
+      "path": "facebook_top_50_by_likes.csv",
+      "description": "Top 50 Facebook pages with like and talking about counts"
+    }
+  ]
+}

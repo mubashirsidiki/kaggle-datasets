@@ -1,0 +1,14 @@
+{
+  "title": "Top 50 TikTok Accounts by Followers (2026)",
+  "id": "mubashirsidiki/top-50-tiktok-accounts-by-followers",
+  "subtitle": "Top 50 TikTok accounts by followers, likes, and uploads",
+  "description": "Put this together while exploring how TikTok's top accounts stack up against other platforms. Has the top 50 TikTok accounts ranked by total followers as of early April 2026.\n\nEach row has rank, account name, followers, following count, total likes, and number of uploads. Useful for cross-platform comparisons, visualizations, or just as a sample dataset for practice.\n\nA few things to note: some accounts show 0 following which just means they don't follow anyone. Some music artists have very few uploads since they use the platform mostly for official clips.",
+  "licenses": [{"name": "CC0-1.0"}],
+  "keywords": ["tiktok", "social media", "influencers", "followers", "short form video"],
+  "resources": [
+    {
+      "path": "tiktok_top_50_by_followers.csv",
+      "description": "Top 50 TikTok accounts with follower, like, and upload counts"
+    }
+  ]
+}
