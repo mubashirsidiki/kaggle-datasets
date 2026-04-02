@@ -1,0 +1,12 @@
+{
+  "title": "Most Viewed YouTube Videos - Top 1000",
+  "id": "mubashirsidiki/most-viewed-youtube-videos-top-1000",
+  "licenses": [{"name": "Apache-2.0"}],
+  "keywords": ["youtube", "most viewed", "videos", "top 1000", "views", "likes", "rankings", "eda", "content type", "language", "shorts"],
+  "resources": [
+    {
+      "path": "most_viewed_videos_1000.csv",
+      "description": "Top 1000 most viewed YouTube videos ranked by total views, including title, view count, like count, title length, detected language, content type classification, and shorts/hashtag flags"
+    }
+  ]
+}

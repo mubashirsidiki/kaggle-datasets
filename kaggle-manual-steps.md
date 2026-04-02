@@ -192,7 +192,42 @@ Simulated dataset of 500 high school students with demographic info, study habit
 
 ---
 
-## Checklist (do for all 6)
+## 7. Most Viewed YouTube Videos - Top 1000
+
+**URL:** https://www.kaggle.com/datasets/mubashirsidiki/most-viewed-youtube-videos-top-1000
+
+### File Description
+
+Top 1000 most viewed YouTube videos of all time, ranked by total views. Includes title, view count, like count, title length, detected language, content type classification, and flags for shorts and hashtag usage.
+
+### Column Descriptors
+
+| Column | Description |
+|--------|-------------|
+| rank | Ranking position (1-1000) based on total views |
+| title | Video title |
+| title_length | Character count of the video title |
+| detected_language | Detected language from title text (English, Hindi, Arabic, Korean, etc.) |
+| content_type | Classified content type (Music Video, Kids/Educational, Short, Ad/Promo, etc.) |
+| is_short | Whether the video is a YouTube Short (1=yes, 0=no) |
+| has_hashtags | Whether the title contains hashtags (1=yes, 0=no) |
+| views | Total view count (e.g. 16.8B = 16.8 billion) |
+| likes | Total like count (e.g. 46.4M = 46.4 million) |
+
+### Tags
+
+`youtube` `most viewed` `videos` `top 1000` `music` `shorts` `eda` `data visualization` `content analysis` `entertainment`
+
+### Provenance
+
+- **Source:** Publicly available YouTube video statistics
+- **Collection method:** Compiled from publicly accessible video ranking page
+- **Temporal coverage:** April 2026
+- **Geographic coverage:** Global
+
+---
+
+## Checklist (do for all 7)
 
 - [ ] Cover image uploaded (Settings > Edit Image)
 - [ ] File description added (click file > add description)
