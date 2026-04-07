@@ -1,0 +1,12 @@
+{
+  "title": "Top 100 TikTok Accounts by Followers (2026)",
+  "id": "mubashirsidiki/top-100-tiktok-accounts-followers-2026",
+  "licenses": [{"name": "CC0-1.0"}],
+  "keywords": ["tiktok", "followers", "top 100", "likes", "videos", "2026"],
+  "resources": [
+    {
+      "path": "tiktok_top_100_by_followers.csv",
+      "description": "Top 100 most followed TikTok accounts ranked by follower count as of 2026, including account name, followers, following, likes, and video count"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Top 100 Instagram Accounts by Followers (2026)",
+  "id": "mubashirsidiki/top-100-instagram-accounts-followers-2026",
+  "licenses": [{"name": "CC0-1.0"}],
+  "keywords": ["instagram", "followers", "top 100", "influencers", "2026"],
+  "resources": [
+    {
+      "path": "instagram_top_100_by_followers.csv",
+      "description": "Top 100 most followed Instagram accounts ranked by follower count as of 2026, including account name, username, follower count, category, and country"
+    }
+  ]
+}
