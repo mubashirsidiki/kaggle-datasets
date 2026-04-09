@@ -1,0 +1,12 @@
+{
+  "title": "Top 1000 YouTube Channels by Subscribers (2026)",
+  "id": "mubashirsidiki/top-1000-youtube-channels-subscribers-2026",
+  "licenses": [{"name": "CC0-1.0"}],
+  "keywords": ["youtube", "channels", "subscribers", "top 1000", "video views", "uploads", "2026"],
+  "resources": [
+    {
+      "path": "youtube_top_1000_by_subscribers.csv",
+      "description": "Top 1000 most subscribed YouTube channels globally ranked by subscriber count as of 2026, including channel title, custom URL, publish date, country, language, description, view count, subscriber count, video count, and topic categories"
+    }
+  ]
+}

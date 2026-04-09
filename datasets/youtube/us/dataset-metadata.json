@@ -1,0 +1,12 @@
+{
+  "title": "Top 1000 YouTube Channels in the US by Subscribers (2026)",
+  "id": "mubashirsidiki/top-1000-usa-youtube-channels-subscribers-2026",
+  "licenses": [{"name": "CC0-1.0"}],
+  "keywords": ["youtube", "channels", "subscribers", "top 1000", "united states", "video views", "2026"],
+  "resources": [
+    {
+      "path": "usa_youtube_top_1000_by_subscribers.csv",
+      "description": "Top 1000 most subscribed YouTube channels in the United States ranked by subscriber count, including channel name, subscriber count, total video views, and country"
+    }
+  ]
+}
