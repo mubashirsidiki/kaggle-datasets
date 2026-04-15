@@ -1,42 +1,38 @@
-# Social Media Top 50 Datasets
+# Kaggle Dataset Workspace
 
-Top 50 rankings scraped from SocialBlade across 5 platforms, plus a simulated student performance dataset. All published on Kaggle.
+Curated dataset packages for Kaggle, including social media rankings and a student performance dataset.
 
-## Datasets
+## What is here
 
-| Dataset | Platform | Records | Key Metric |
-|---------|----------|---------|------------|
-| [YouTube Top 50](https://www.kaggle.com/datasets/mubashirsidiki/top-50-youtube-channels-by-subscribers) | YouTube | 50 | Subscribers |
-| [TikTok Top 50](https://www.kaggle.com/datasets/mubashirsidiki/top-50-tiktok-accounts-by-followers) | TikTok | 50 | Followers |
-| [Twitch Top 50](https://www.kaggle.com/datasets/mubashirsidiki/top-50-twitch-channels-by-followers) | Twitch | 50 | Followers |
-| [Facebook Top 50](https://www.kaggle.com/datasets/mubashirsidiki/top-50-facebook-pages-by-likes) | Facebook | 50 | Likes |
-| [Instagram Top 50](https://www.kaggle.com/datasets/mubashirsidiki/top-50-instagram-accounts-by-followers) | Instagram | 50 | Followers |
-| [Student Performance](https://www.kaggle.com/datasets/mubashirsidiki/student-academic-performance-500-students) | — | 500 | Final Score |
+- YouTube channel rankings (global, US, India) and global top videos by views
+- TikTok, Instagram, Twitch, Facebook rankings
+- GitHub top repositories by stars
+- Student performance dataset with EDA + ML notebook
 
-## Structure
+## Repo structure
 
-```
+```text
 datasets/
-├── youtube-top-50/        # CSV + Kaggle notebook
-├── tiktok-top-50/         # CSV + Kaggle notebook
-├── twitch-top-50/         # CSV + Kaggle notebook
-├── facebook-top-50/       # CSV + Kaggle notebook
-├── instagram-top-50/      # CSV + Kaggle notebook
-└── student-performance/   # CSV + Kaggle notebook (ML pipeline)
+  <platform>/<region-or-scope>/<metric>/<tier>/
+    data/
+    notebooks/
+    metadata/
+    assets/   # optional
+    docs/     # optional
+
+scripts/
+  kaggle_utils.py
+
+docs/
+  kaggle-manual-steps.md
 ```
 
-Each dataset folder contains the CSV, a Kaggle notebook (`.ipynb`), and `dataset-metadata.json` for the Kaggle API.
+## Notes
 
-## Notebooks
-
-- **Social media datasets** — Dark-themed visual exploration (bar charts, scatter plots)
-- **Student Performance** — Full ML pipeline: classification (pass/fail) and regression (final score) with 5+ models, ROC curves, confusion matrix, feature importance
-
-## Tools
-
-- `kaggle_utils.py` — CLI helper for Kaggle API (create, upload, list datasets)
-- `social-blade-dataset/` — Raw scraped data (source)
+- Each dataset package is self-contained for Kaggle publishing.
+- `metadata/dataset_metadata.json` is the Kaggle metadata file.
+- Notebooks are personalized per dataset and kept compact.
 
 ## License
 
-Apache License 2.0
+Apache-2.0
