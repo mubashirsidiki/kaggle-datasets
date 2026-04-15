@@ -1,0 +1,25 @@
+{
+  "title": "Top 100 Facebook Pages by Likes (2026)",
+  "id": "mubashirsidiki/top-100-facebook-pages-by-likes-2026",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "facebook",
+    "social media",
+    "pages",
+    "likes",
+    "brands",
+    "top 100",
+    "engagement",
+    "2026"
+  ],
+  "resources": [
+    {
+      "path": "data/facebook_top_100_by_likes.csv",
+      "description": "Primary dataset file with 100 rows and 4 columns. Columns include: rank, page, likes, talking_about."
+    }
+  ]
+}

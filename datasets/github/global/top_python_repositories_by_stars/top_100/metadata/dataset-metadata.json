@@ -1,0 +1,20 @@
+{
+  "title": "Top 100 Python Repositories By Stars",
+  "id": "mubashirsidiki/github-global-top-python-repositories-by-stars-top-100",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "github",
+    "global",
+    "top_python_repositories_by_stars"
+  ],
+  "resources": [
+    {
+      "path": "data/top_100_python_repositories_by_stars.csv",
+      "description": "Primary dataset file with 100 rows and 9 columns. Columns include: rank, project_name, repo_link, stars, forks, language, open_issues, description, last_commit."
+    }
+  ]
+}

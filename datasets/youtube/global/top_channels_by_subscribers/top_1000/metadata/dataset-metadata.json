@@ -1,0 +1,24 @@
+{
+  "title": "Top 1000 YouTube Channels by Subscribers (2026)",
+  "id": "mubashirsidiki/top-1000-youtube-channels-subscribers-2026",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "youtube",
+    "channels",
+    "subscribers",
+    "top 1000",
+    "video views",
+    "uploads",
+    "2026"
+  ],
+  "resources": [
+    {
+      "path": "data/youtube_top_1000_by_subscribers.csv",
+      "description": "Primary dataset file with 1000 rows and 11 columns. Columns include: rank, title, custom_url, published_at, country, default_language, description, views, subscribers, videos, topic_categories."
+    }
+  ]
+}

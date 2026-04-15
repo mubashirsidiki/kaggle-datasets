@@ -1,0 +1,20 @@
+{
+  "title": "Top 100 Repositories By Forks",
+  "id": "mubashirsidiki/github-global-top-repositories-by-forks-top-100",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "github",
+    "global",
+    "top_repositories_by_forks"
+  ],
+  "resources": [
+    {
+      "path": "data/top_100_repositories_by_forks.csv",
+      "description": "Primary dataset file with 100 rows and 9 columns. Columns include: rank, project_name, repo_link, stars, forks, language, open_issues, description, last_commit."
+    }
+  ]
+}

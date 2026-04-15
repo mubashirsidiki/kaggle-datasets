@@ -1,0 +1,29 @@
+{
+  "title": "Most Watched YouTube Videos 2026 Rankings",
+  "id": "mubashirsidiki/most-watched-yt-videos-rankings-2026",
+  "licenses": [
+    {
+      "name": "Apache-2.0"
+    }
+  ],
+  "keywords": [
+    "youtube",
+    "most viewed",
+    "videos",
+    "top 1000",
+    "views",
+    "likes",
+    "rankings",
+    "eda",
+    "content type",
+    "language",
+    "shorts",
+    "2026"
+  ],
+  "resources": [
+    {
+      "path": "data/most_viewed_videos_1000.csv",
+      "description": "Primary dataset file with 1000 rows and 9 columns. Columns include: rank, title, title_length, detected_language, content_type, is_short, has_hashtags, views, likes."
+    }
+  ]
+}

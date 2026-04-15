@@ -1,0 +1,22 @@
+{
+  "title": "Top 100 Twitch Channels by Followers (2026)",
+  "id": "mubashirsidiki/top-100-twitch-channels-followers-2026",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "twitch",
+    "followers",
+    "top 100",
+    "streaming",
+    "2026"
+  ],
+  "resources": [
+    {
+      "path": "data/twitch_top_100_by_followers.csv",
+      "description": "Primary dataset file with 100 rows and 3 columns. Columns include: rank, channel, followers."
+    }
+  ]
+}

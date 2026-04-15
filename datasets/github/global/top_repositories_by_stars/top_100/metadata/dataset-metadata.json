@@ -1,0 +1,20 @@
+{
+  "title": "Github Most Starred",
+  "id": "mubashirsidiki/github-global-top-repositories-by-stars-top-100",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "github",
+    "global",
+    "top_repositories_by_stars"
+  ],
+  "resources": [
+    {
+      "path": "data/github_most_starred.csv",
+      "description": "Primary dataset file with 100 rows and 9 columns. Columns include: rank, repo-name, repo-link, stars, forks, lang, open-issues, description, last-commit."
+    }
+  ]
+}

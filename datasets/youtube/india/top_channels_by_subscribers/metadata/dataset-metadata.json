@@ -1,0 +1,20 @@
+{
+  "title": "Youtube Top India By Subscribers",
+  "id": "mubashirsidiki/youtube-india-top-channels-by-subscribers",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "youtube",
+    "india",
+    "top_channels_by_subscribers"
+  ],
+  "resources": [
+    {
+      "path": "data/youtube_top_india_by_subscribers.csv",
+      "description": "Primary dataset file with 216 rows and 6 columns. Columns include: rank, title, subscribers, views, country, profile_picture_url."
+    }
+  ]
+}
