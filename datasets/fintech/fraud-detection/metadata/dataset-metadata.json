@@ -1,0 +1,55 @@
+{
+  "title": "Financial Fraud Detection Dataset (2026)",
+  "subtitle": "Labeled transactions with 25 features for fraud detection and anomaly analysis.",
+  "id": "mubashirsidiki/financial-fraud-detection-1500",
+  "description": "This dataset contains 1,500 financial transaction records across 10 countries, designed for binary fraud classification. Each record captures transaction metadata, temporal patterns, account history, device/behavioral signals, and merchant risk indicators. The fraud label (~0.8% positive rate) reflects real-world class imbalance, making it ideal for evaluating techniques like SMOTE, cost-sensitive learning, and anomaly detection.",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "fraud detection",
+    "financial transactions",
+    "binary classification",
+    "imbalanced dataset",
+    "fintech",
+    "anomaly detection",
+    "2026"
+  ],
+  "sources": "Synthetically generated using NumPy's random number generator (seed 42) to simulate financial transaction patterns across 10 countries. Feature distributions and fraud labeling logic modeled after real-world payment fraud patterns.",
+  "collection_methodology": "Data generated programmatically. Transaction amounts sampled from log-normal distribution. Temporal features, device types, and country distributions calibrated to mirror production payment gateway traffic. Fraud labels assigned via logistic function over weighted risk signals (amount anomalies, off-hours activity, chargeback history, VPN usage, new device flags, merchant risk scores). Resulting ~0.8% fraud rate reflects real-world class imbalance.",
+  "resources": [
+    {
+      "path": "data/fraud_1500.csv",
+      "description": "CSV file containing 1,500 financial transaction records with 25 columns covering transaction metadata, temporal patterns, account history, behavioral signals, and merchant risk scores. Includes a binary fraud_label target column with ~0.8% fraud rate. No missing values. Ready for classification, anomaly detection, and imbalanced learning workflows.",
+      "columns": [
+        {"name": "transaction_id", "type": "string", "description": "Unique transaction identifier (TXN000001-TXN001500)"},
+        {"name": "user_id", "type": "int", "description": "Anonymized customer ID"},
+        {"name": "merchant_id", "type": "int", "description": "Anonymized merchant ID"},
+        {"name": "amount", "type": "float", "description": "Transaction amount in USD (2-5,000)"},
+        {"name": "transaction_type", "type": "string", "description": "Type: purchase, subscription, transfer, cash_out, bill_payment"},
+        {"name": "merchant_category", "type": "string", "description": "Category: electronics, fashion, grocery, travel, gaming, health, education, food_delivery, finance, utilities"},
+        {"name": "device_type", "type": "string", "description": "Device used: mobile, desktop, tablet"},
+        {"name": "country", "type": "string", "description": "Country code: US, UK, CA, DE, IN, AU, BR, FR, SG, AE"},
+        {"name": "hour", "type": "int", "description": "Hour of transaction (0-23)"},
+        {"name": "day_of_week", "type": "int", "description": "Day of week (0=Mon, 6=Sun)"},
+        {"name": "is_weekend", "type": "int", "description": "1 if Saturday/Sunday, else 0"},
+        {"name": "account_age_days", "type": "int", "description": "Days since account creation (1-3,650)"},
+        {"name": "customer_tenure_months", "type": "int", "description": "Customer tenure in months"},
+        {"name": "prior_txn_24h", "type": "int", "description": "Number of transactions in past 24 hours"},
+        {"name": "prior_txn_7d", "type": "int", "description": "Number of transactions in past 7 days"},
+        {"name": "avg_amount_30d", "type": "float", "description": "Average transaction amount over past 30 days"},
+        {"name": "days_since_last_txn", "type": "int", "description": "Days since last transaction (0-60)"},
+        {"name": "chargeback_history", "type": "int", "description": "Historical chargeback count"},
+        {"name": "failed_login_24h", "type": "int", "description": "Failed login attempts in past 24 hours"},
+        {"name": "credit_score_band", "type": "string", "description": "Credit quality: poor, fair, good, very_good, excellent"},
+        {"name": "is_foreign_txn", "type": "int", "description": "1 if transaction country differs from account country"},
+        {"name": "is_high_risk_country", "type": "int", "description": "1 if country is flagged high-risk (BR, AE)"},
+        {"name": "is_new_device", "type": "int", "description": "1 if device not previously associated with account"},
+        {"name": "merchant_risk_score", "type": "int", "description": "Merchant risk score (1-100)"},
+        {"name": "fraud_label", "type": "int", "description": "Target: 1 = fraudulent, 0 = legitimate"}
+      ]
+    }
+  ]
+}
